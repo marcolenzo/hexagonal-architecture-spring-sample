@@ -3,6 +3,9 @@ package eu.marcolenzo.hexagonalarchitecture.core.domain;
 import eu.marcolenzo.hexagonalarchitecture.core.exceptions.InsufficientFundsException;
 import java.math.BigDecimal;
 
+/**
+ * This class represents the domain model for an account.
+ */
 public class Account {
 
   private final long number;

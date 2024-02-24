@@ -3,6 +3,9 @@ package eu.marcolenzo.hexagonalarchitecture.persistence.mongo;
 import eu.marcolenzo.hexagonalarchitecture.core.domain.Account;
 import eu.marcolenzo.hexagonalarchitecture.core.repositories.AccountRepository;
 
+/**
+ * This class is a secondary port adapter used to interact with the persistence layer.
+ */
 public class AccountRepositoryImpl implements AccountRepository {
 
   private final AccountMongoRepository accountMongoRepository;

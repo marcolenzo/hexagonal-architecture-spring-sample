@@ -6,6 +6,9 @@ import eu.marcolenzo.hexagonalarchitecture.core.repositories.AccountRepository;
 import eu.marcolenzo.hexagonalarchitecture.core.usecases.WithdrawFundsUseCase;
 import java.math.BigDecimal;
 
+/**
+ * This class represents the primary port implementation with the domain layer.
+ */
 public class AccountServices implements WithdrawFundsUseCase {
 
   private final AccountRepository accountRepository;

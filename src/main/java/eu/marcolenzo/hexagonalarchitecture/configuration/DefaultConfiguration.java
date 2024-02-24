@@ -8,6 +8,10 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
 
+/**
+ * This configuration is used when the application is NOT running in a local environment.
+ * The secondary port adapter is implemented using MongoDB.
+ */
 @Configuration
 @Profile("!local")
 public class DefaultConfiguration {

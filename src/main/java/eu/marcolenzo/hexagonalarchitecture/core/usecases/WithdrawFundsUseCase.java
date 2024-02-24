@@ -5,6 +5,9 @@ import eu.marcolenzo.hexagonalarchitecture.core.exceptions.InsufficientFundsExce
 import eu.marcolenzo.hexagonalarchitecture.core.exceptions.UnknownAccountException;
 import java.math.BigDecimal;
 
+/**
+ * This interface represents the primary port adapter used to interact with the domain layer.
+ */
 public interface WithdrawFundsUseCase {
 
   Account withdrawFunds(Long accountNumber, BigDecimal amount)

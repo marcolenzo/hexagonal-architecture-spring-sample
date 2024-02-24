@@ -4,6 +4,10 @@ import java.math.BigDecimal;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+/**
+ * This class is necessary to keep {@link eu.marcolenzo.hexagonalarchitecture.core.domain.Account}
+ * dependency-free from the Spring Data framework and or any other persistence-related concerns.
+ */
 @Document(collection = "accounts")
 public class AccountDocument {
 
